@@ -1,0 +1,68 @@
+.from-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5%;
+}
+
+.from-content label{
+    margin-left: 10px;
+    
+}
+
+.from-content .form-control {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    min-width: 165px;
+}
+
+.from-content .form-select{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    min-width: 165px;
+}
+
+.pet-container{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    border:1px solid black;
+    margin: 2px;
+    padding: 5px;
+}
+
+.pet-container label{
+    display: flex;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.pet-container p{
+    margin-bottom: 0;
+}
+
+.lookup{
+    border-left: 5px solid yellow;
+}
+
+.from-content{
+    background-color: lightsalmon;
+    border-radius: 10%;
+}
+
+table{
+    background-color: lightgoldenrodyellow;
+}
+
+.container-table{
+    background-color: white;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+#totalPets {
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
