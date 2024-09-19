@@ -15,6 +15,11 @@ console.log("Helo Word")
 
 let pets = [];
 
+function initregister(){
+    
+    displayRows()
+    getServices()
+}
 
 // let cat = {
 //     name:"Michi",
@@ -141,3 +146,17 @@ function search(){
     }
     
 }
+
+function getServices(){
+    let services = read();
+    let option;
+    debugger
+    // servicesSelect.innerHTML = '';
+    for(let i =0;i<services.length;i++){
+        option +=`<option value="${services[i].description}">${services[i].description}</option>`
+    }
+
+    $('#servicePet').append(option)
+}
+
+window.onload = initregister
